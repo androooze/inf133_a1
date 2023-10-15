@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+WRITTEN BY: andrew zhen
+EMAIL: alzhen@uci.edu
+-->
+
+<head>
+  <meta charset='utf-8'>
+  <title>Andrew Zhen Contact</title>
+  <meta name="description" content="Andrew Zhen Contact Page">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+  <link rel="stylesheet" href=nav.css>
+  <link rel="stylesheet" href=media.css>
+  <link rel="stylesheet" href=contact.css>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+
+  <nav id="desktop_nav">
+    <p class="logo">Andrew Zhen</p>
+    <ul class="nav_links">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- <div class="space"></div> -->
+
+  <nav id="mobile_nav">
+    <p class="logo">Andrew Zhen</p>
+    <div class="mobile_menu">
+      <div class="mobile_icon" onclick="toggleMenu()">
+        <span class="material-symbols-outlined" id="three">menu</span>
+        <span class="material-symbols-outlined" id="x">close</span>
+      </div>
+      <ul class="menu_links">
+        <li><a href="index.html" onclick="toggleMenu()">About Me</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="resume.html" onclick="toggleMenu()">Resume</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2 id="contact_title">CONTACT ME</h2>
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="enter first name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="enter last name..">
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="user_email" placeholder="enter email..">
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="enter message.." style="height:200px"></textarea>
+  
+      <input type="submit" value="SUBMIT" >
+    </form>
+  </div>
+
+</body>
+
+</html>
