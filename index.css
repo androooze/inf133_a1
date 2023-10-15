@@ -80,6 +80,11 @@ section {
   color: var(--text-dark);
 }
 
+.my_intro {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
 /* ICONS */
 
 .icon {

@@ -46,7 +46,8 @@ nav, .nav_links {
   
   .logo {
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
+    font-weight: 600;
   }
   
   .logo:hover {
